@@ -1,0 +1,16 @@
+Databases:
+  YourDataset: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/file1.wav
+
+Protocols:
+  YourDataset:
+    SpeakerDiarization:
+      YourProtocol:
+        train:
+          annotation: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/train.rttm
+          annotated: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/train.uem
+        development:
+          annotation: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/train.rttm
+          annotated: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/train.uem
+        test:
+          annotation: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/train.rttm
+          annotated: /home/dbj/wangyanlei/audio/pyannote-audio/pyannote/audio/audio-test/train.uem
